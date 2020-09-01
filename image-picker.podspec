@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.1'
   
-  s.source_files = 'ImagePicker/**/*.{h,swift,xib}'
+  s.source_files = 'ImagePicker/**/*.{h,m,swift,xib}'
   
   # s.resource_bundles = {
   #   'image-picker' => ['ImagePicker/Assets.xcassets/**/*']

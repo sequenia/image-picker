@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.1'
   
-  s.source_files = 'image-picker/ImagePicker/**/*'
+  s.source_files = 'ImagePicker/**/*'
   
   # s.resource_bundles = {
   #   'FlexibleTimePicker' => ['FlexibleTimePicker/Assets/*.png']

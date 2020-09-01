@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
   
   s.source_files = 'ImagePicker/**/*'
   
-  # s.resource_bundles = {
-  #   'FlexibleTimePicker' => ['FlexibleTimePicker/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'image-picker' => ['ImagePicker/Assets/**/*']
+  }
   
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'ImagePicker/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   end

@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.1'
   
-  s.source_files = 'ImagePicker/**/*'
+  s.source_files = 'image-picker/**/*'
   
   s.resource_bundles = {
-    'image-picker' => ['ImagePicker/Assets.xcassets/**/*']
+    'image-picker' => ['image-picker/**/Assets.xcassets/**/*']
   }
   
-  s.public_header_files = 'ImagePicker/**/*.h'
+  s.public_header_files = 'image-picker/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   end

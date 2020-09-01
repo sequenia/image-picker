@@ -20,21 +20,19 @@ Pod::Spec.new do |s|
   s.description      = 'An easy to use drop-in framework providing user interface for taking pictures and videos and pick assets from Photo Library. User interface is designed to support inputView "keyboard-like" presentation for conversation user interfaces. Project is written in Swift4.'
   
   s.homepage         = 'https://github.com/inloop/image-picker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'inloopx' => ' http://inloopx.com' }
   s.source           = { :git => 'https://github.com/inloop/image-picker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '10.1'
   
-  s.source_files = 'image-picker/**/*'
+  s.source_files = 'ImagePicker/**/*.{h,swift,xib}'
   
-  s.resource_bundles = {
-    'image-picker' => ['image-picker/**/Assets.xcassets/**/*']
-  }
+  # s.resource_bundles = {
+  #   'image-picker' => ['ImagePicker/Assets.xcassets/**/*']
+  # }
   
-  s.public_header_files = 'image-picker/**/*.h'
+  s.public_header_files = 'ImagePicker/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   end

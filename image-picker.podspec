@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ImagePicker/**/*'
   
   s.resource_bundles = {
-    'image-picker' => ['ImagePicker/Assets/**/*']
+    'image-picker' => ['ImagePicker/Assets.xcassets/**/*']
   }
   
   s.public_header_files = 'ImagePicker/**/*.h'

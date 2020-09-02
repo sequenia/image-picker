@@ -201,6 +201,7 @@
 		420C24171F5D82F9008935D4 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				9A60AA0824FFA26900E88E09 /* Resources */,
 				420C24181F5D82F9008935D4 /* ImagePicker.h */,
 				42887C072080D5D200194155 /* Operations */,
 				42D7036F1F7909100057D557 /* Public */,
@@ -213,7 +214,6 @@
 				420C243E1F5EEA19008935D4 /* LayoutModel.swift */,
 				4214426E1F604498006BA45A /* ImagePickerSelectionPolicy.swift */,
 				42EDD4151F712B2A00EAD2F5 /* Miscellaneous.swift */,
-				425BEC841F7D351A0091D008 /* Assets.xcassets */,
 				42D097981F7BD6E100A66E33 /* UIImageEffects.h */,
 				42D097971F7BD6E100A66E33 /* UIImageEffects.m */,
 				420C24191F5D82F9008935D4 /* Info.plist */,
@@ -288,6 +288,14 @@
 				42311FFB1F73DBBE00B1AEB4 /* VideoOuptutSampleBufferDelegate.swift */,
 			);
 			name = Media;
+			sourceTree = "<group>";
+		};
+		9A60AA0824FFA26900E88E09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				425BEC841F7D351A0091D008 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

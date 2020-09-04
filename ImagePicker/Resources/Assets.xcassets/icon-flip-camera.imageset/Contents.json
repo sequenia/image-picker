@@ -1,15 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "обратная камера.png",
       "idiom" : "universal",
-      "filename" : "flipCamera.pdf"
+      "scale" : "1x"
+    },
+    {
+      "filename" : "обратная камера@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "обратная камера@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
+    "author" : "xcode",
+    "version" : 1
   }
 }
